@@ -113,16 +113,41 @@ body {
   }
   /* inizio left-col */
   .left-col{
-    background-color: pink;
-    height: 45rem;
+    background-color: white;
     width: 24%;
     float: left;
+    padding: 2.5rem;
+  }
+  .left-col .fa-rss-square{
+    color: orange;
+    font-size: 3.5rem;
+    vertical-align: middle;
+  }
+  .left-col .feeds-title{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .left-col .feeds-title{
+    font-size: 2rem;
+  }
+  .left-col .feeds-list{
+    list-style: none;
+    margin-top: 2rem;
+  }
+  .left-col .feeds{
+    text-decoration: none;
+    color: green;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
   /* fine left-col */
 
   /* inizio main-col */
   .main-col{
-  background-color: blue;
+  background-color: white;
+  padding: 2.5rem;
   height: 50rem;
   width: 48%;
   float: left;
