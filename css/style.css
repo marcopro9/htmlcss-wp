@@ -94,7 +94,10 @@ body {
       font-size: 1.5rem;
       color: white;
       text-decoration: none;
-      margin: 0 1.5rem;
+      padding:2rem 2rem;
+    }
+    header nav a:hover{
+      background-color: #3a332f;
     }
   /* fine menu */
 
@@ -106,11 +109,13 @@ body {
     margin: auto;
     margin-bottom: 3rem;
   }
+
   main::after{
     content: "";
     clear: both;
     display: table;
   }
+
   /* inizio left-col */
   .left-col{
     background-color: white;
@@ -118,24 +123,29 @@ body {
     float: left;
     padding: 2.5rem;
   }
+
   .left-col .fa-rss-square{
     color: orange;
     font-size: 3.5rem;
     vertical-align: middle;
   }
+
   .left-col .feeds-title{
     font-size: 2rem;
     margin-left: 1.5rem;
     vertical-align: middle;
     display: inline-block;
   }
+
   .left-col .feeds-title{
     font-size: 2rem;
   }
+
   .left-col .feeds-list{
     list-style: none;
     margin-top: 2rem;
   }
+
   .left-col .feeds{
     text-decoration: none;
     color: green;
@@ -153,12 +163,14 @@ body {
   float: left;
   margin-left: 2%;
   }
+
   .main-col .article-title{
     color: #716964;
     font-size: 3rem;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 2px grey;
   }
+
   .main-col .article-text{
     font-size: 1.6rem;
     line-height: 2.8rem;
@@ -172,15 +184,18 @@ body {
     float: left;
     margin-left: 2%;
   }
+
   .right-col .text-widget{
     background-color: white;
     margin-bottom: 3rem;
     padding: 2.5rem;
   }
+
   .right-col .text-widget .widget-title{
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+
   .right-col .widget-text{
     font-size: 1.6rem;
     line-height: 2.8rem;
@@ -191,10 +206,31 @@ body {
 
 /* inizio footer */
 footer {
-  background-color: purple;
-  height: 12rem;
+  background-color: white;
   width: 67%;
+  height: 20rem;
   margin: auto;
   margin-bottom: 3rem;
+  padding: 2.5rem;
+}
+
+footer .credits{
+  font-size: 1.4rem;
+  text-align: center;
+  font-style: italic;
+  color: #c7c6c5;
+  margin-bottom: 1rem;
+}
+
+footer .icons{
+  margin-top: 5rem;
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+
+footer .social{
+  font-size: 4rem;
+  color: #c7c6c5;
 }
 /* fine footer */
