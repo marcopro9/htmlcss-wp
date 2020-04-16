@@ -172,10 +172,18 @@ body {
     float: left;
     margin-left: 2%;
   }
-  .right-col .element1, .element2{
-    background-color: green;
-    height: 20rem;
+  .right-col .text-widget{
+    background-color: white;
     margin-bottom: 3rem;
+    padding: 2.5rem;
+  }
+  .right-col .text-widget .widget-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .right-col .widget-text{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
   }
   /* fine right-col */
 
