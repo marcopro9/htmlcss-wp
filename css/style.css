@@ -3,14 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size:62.5%;
-}
+  }
 /* fine reset */
 
 /* inizio tipografia */
-h1, h2, h3, h4, h5, h6, p, a{
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
-}
+  *{
+    font-size:62.5%;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  }
 /* fine tipografia */
 
 /* immagine background */
@@ -66,7 +66,7 @@ body {
     }
 
     header .banner .site-title h1{
-      font-size: 45px;
+      font-size: 4.5rem;
       font-weight:900;
       border: 0.5rem solid white;
       width: 75%;
@@ -139,7 +139,8 @@ body {
   .left-col .feeds{
     text-decoration: none;
     color: green;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
     margin-bottom: 2rem;
   }
   /* fine left-col */
@@ -148,10 +149,20 @@ body {
   .main-col{
   background-color: white;
   padding: 2.5rem;
-  height: 50rem;
   width: 48%;
   float: left;
   margin-left: 2%;
+  }
+  .main-col .article-title{
+    color: #716964;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 2px grey;
+  }
+  .main-col .article-text{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
   }
   /* fine main-col */
 
