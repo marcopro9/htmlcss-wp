@@ -215,6 +215,7 @@ footer {
   margin: auto;
   margin-bottom: 3rem;
   padding: 2.5rem;
+  border-radius: 2%;
 }
 
 footer .credits{
